@@ -1,0 +1,16 @@
+.align-center{
+    text-align:center;
+}
+
+.content-box{
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.align-right{
+    text-align:right;
+}
+
+.align-justify{
+    text-align: justify;
+}

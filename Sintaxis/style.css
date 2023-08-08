@@ -1,0 +1,11 @@
+/* 
+Selector -> Es el elemento que vamos a aplicarle los estilos
+Propiedad -> Es lo que vamos a cambiar
+Valor -> Es el nuevo valor que va a tener la propiedad
+Propiedad:valor -> es a lo que se le denomina declaración
+al conjunto de selector + declaracion(es) se le denomina "regla"
+*/
+
+/* body(selector){
+    background-color(propiedad) : aqua(valor);
+} */

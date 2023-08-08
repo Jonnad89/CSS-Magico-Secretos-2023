@@ -1,0 +1,11 @@
+.mi-elemento{
+    border-top: 2px dashed #FF0000
+}
+
+.otro-elemento{
+    border-bottom: 3px dotted #00FF00;
+}
+
+.elemento-especial{
+    border-left: 2px double #0000FF;
+}

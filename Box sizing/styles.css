@@ -1,0 +1,33 @@
+input{
+    box-sizing: border-box;
+    width:200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.caja{
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #f00;
+    margin:20px;
+}
+
+img{
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #000
+}
+
+a{
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #00f;
+    background-color: #f0f0f0;
+    display: block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}

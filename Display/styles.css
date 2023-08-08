@@ -1,0 +1,33 @@
+.block-example{
+    display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.box{
+    display:block;
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+}
+
+.inline-block-example button{
+    display:inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+}
+
+.flex-example{
+    display:flex;
+    justify-content: space-between;
+}
+.item{
+    background-color: #9e8686;
+    padding: 10px;
+}

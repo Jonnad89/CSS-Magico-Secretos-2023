@@ -1,0 +1,19 @@
+.highlight-link{
+    outline: 2px solid #00f;
+    padding: 5px;
+}
+
+.focus-outline:focus{
+    outline: 2px solid #00f;
+    outline-offset: -2px;
+}
+
+.custom-button{
+    outline:2px solid #00f;
+    outline-offset: -2px;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}

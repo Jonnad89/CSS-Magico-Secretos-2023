@@ -1,0 +1,21 @@
+.boton-circular{
+    border-radius:50%;
+    padding: 10px 20px;
+    background-color: #00f;
+    color: #fff;
+    cursor: pointer;
+}
+
+.boton-eliptico{
+    border-radius: 30px 50px;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+}
+
+.boton-personalizado{
+    border-radius: 15px 15px 0 0;
+    padding: 10px 20px;
+    background-color: #0f0;
+    color: #fff;
+}
