@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<!-- 
+static: Este es el valor predeterminado para todos los elementos. El elemento se posiciona según el flujo normal del documento. Cualquier propiedad de posición especificada será ignorada.
+
+relative: El elemento se posiciona en relación con su posición normal. Esto permite desplazar el elemento usando las propiedades top, right, bottom y left. Sin embargo, el espacio original que ocupaba el elemento no se altera, por lo que otros elementos no se ajustarán para llenar el espacio.
+
+absolute: El elemento se posiciona en relación con su ancestro posicionado más cercano (un elemento que tenga una posición diferente de static). Si no hay ancestros posicionados, se toma como referencia el elemento raíz (<html>). El espacio original del elemento también se libera, y otros elementos pueden ocupar su lugar.
+
+fixed: Similar a absolute, pero el elemento se posiciona en relación con la ventana del navegador en lugar de sus ancestros. Permanece en su posición incluso si se desplaza la página.
+
+sticky: El elemento se comporta como relative hasta que alcanza un umbral específico en la ventana. Luego, se convierte en fixed en relación con su contenedor más cercano que tiene un overflow diferente de visible.
+ -->
+<body>
+
+    <div class="box static">Posición Estática</div>
+
+    <div class="box relative">Posición Relativa</div>
+    
+    <div class="container">
+        <div class="box absolute">Posición Absoluta</div>
+    </div>
+
+    <div class="box fixed">Posición Fija</div>
+   
+    <div class="container2">
+    <div class="box sticky">Posición Sticky</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, molestias.</p>
+</div>
+</body>
+</html>
