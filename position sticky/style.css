@@ -1,0 +1,31 @@
+/* .sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 100;
+} */
+
+/* .sticky-element {
+    position: sticky;
+    top: 20px;
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+.sticky-header th{
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+}
