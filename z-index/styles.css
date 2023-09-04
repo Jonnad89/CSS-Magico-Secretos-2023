@@ -1,0 +1,35 @@
+.box {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.box1 {
+    background-color: #f0f0f0;
+}
+
+.box2 {
+    background-color: #00f;
+    left: 50px;
+    top:50px;
+    z-index: 2;
+}
+
+.dropdown {
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index:2;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: red;
+    list-style: none;
+}
